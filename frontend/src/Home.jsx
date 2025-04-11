@@ -9,7 +9,7 @@ const Home = () => {
   const [username, setUsername] = useState("");
   return (
     <div className="w-full min-h-screen flex flex-col justify-center items-center bg-gray-900">
-      <div className="w-[25%] h-[65vh] border-1 border-gray-300 rounded-sm flex flex-col justify-center items-center">
+      <div className="w-[95%] lg:w-[25%] h-[65vh] border-1 border-gray-300 rounded-sm flex flex-col justify-center items-center">
         {/* Title */}
         <div className="text-[2rem] font-bold mb-2 mt-[2rem] text-white">
           LOGIN
